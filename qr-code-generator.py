@@ -21,7 +21,7 @@ elif fill_color_choice.lower() == 'green':
 elif fill_color_choice.lower() == 'blue':
     fill_color = blue
 else:
-    # If not a preset variable, assume custom hex code input
+    # If not a preset colour, assume custom hex code input
     fill_color = fill_color_choice
 
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
